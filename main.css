@@ -1,0 +1,63 @@
+/* Importing font */
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+/* Giving body it's properties */
+body {
+	background-color: #35313d;
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+ /* Category colors */
+.cat1 { color: #e05555; }
+.cat2 { color: #e0b455; }
+.cat3 {	color: #9ae055; }
+.cat4 {	color: #55d4e0; }
+.cat5 { color: #8555e0; }
+
+/* centered area */
+.box {
+	width: 70%;
+	height: 30%;
+	display: flex;
+	margin: auto;
+	margin-top: 18%;
+}
+
+/* List styling */
+ul {
+	display: inline-block;
+	padding: 3%;
+	list-style: none;
+	margin-left: auto;
+	margin-right: auto; 
+}
+
+/* Creating headers*/
+li:first-child {
+	font-size: 50px;
+	text-shadow: 1px 1px 2px black;
+}
+
+/* Spacing between links */
+li {
+	padding-bottom: 7px;
+}
+
+/* Links appearance */
+a:link:active, a:visited:active, a:link, a:visited {
+	font-style: none;
+	text-decoration: none;
+	font-size: 24px;
+	color: currentColor;	
+	text-shadow: 1px 1px 2px black;
+}
+
+a:hover {
+	text-shadow: 1px 1px 6px currentColor;
+}
+
+.small {
+	font-size: 12px;
+	color: currentColor;
+}
