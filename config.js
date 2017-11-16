@@ -3,64 +3,64 @@ config =
   {
     category: '1',
     name: 'Search',
-    colour: '#e05555',
+    color: '#e05555',
     listItems: [
       {
         name: 'Google',
         url: 'https://www.google.com/',
-        colour:'parent'
+        color:'parent'
       },
       {
         name: 'Bing',
         url: 'https://www.bing.com/',
-        colour:'parent'
+        color:'parent'
       },
       {
         name: 'Yahoo!',
         url: 'https://search.yahoo.com/',
-        colour:'parent'
+        color:'parent'
       },
       {
         name: 'DuckDuckGo',
         url: 'https://www.duckduckgo.com/',
-        colour:'parent'
+        color:'parent'
       },
       {
         name: 'Baidu',
         url: 'https://www.baidu.com/',
-        colour:'parent'
+        color:'parent'
       }
     ]
   },
   {
     category: '2',
     name: 'Pingis',
-    colour: '#ff5555',
+    color: '#ff5555',
     listItems: [
       {
         name: 'Google',
         url: 'https://www.google.com/',
-        colour:'parent'
+        color:'parent'
       },
       {
         name: 'Bing',
         url: 'https://www.bing.com/',
-        colour:'parent'
+        color:'parent'
       },
       {
         name: 'Yahoo!',
         url: 'https://search.yahoo.com/',
-        colour:'parent'
+        color:'parent'
       },
       {
         name: 'DuckDuckGo',
         url: 'https://www..com/',
-        colour:'parent'
+        color:'parent'
       },
       {
         name: 'Baidu',
         url: 'https://www.baidu.com/',
-        colour:'parent'
+        color:'parent'
       }
     ]
   }
