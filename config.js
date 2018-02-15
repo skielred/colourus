@@ -1,167 +1,91 @@
 config =
 [
   {
-    name: 'Search',
+    name: 'Mosted used',
     color: '#e67e22',
     listItems: [
       {
-        name: 'Google',
-        url: 'https://www.google.com/',
-        color: 'parent',
-        sup: 'true',
-        supInfo:[
-          {
-          name: '[1]',
-          url: 'http://dogecoin.com/'
-        },
-        {
-        name: '[Word]',
-        url: 'http://meme.cash/'
-      }]
+        name: 'Youtube',
+        url: 'https://www.youtube.com/feed/subscriptions',
+        color: 'parent'
       },
       {
-        name: 'Bing',
-        url: 'https://www.bing.com/',
+        name: 'Reddit',
+        url: 'https://www.reddit.com/',
         color:'parent'
       },
       {
-        name: 'Yahoo!',
-        url: 'https://search.yahoo.com/',
+        name: 'Mastodon',
+        url: 'https://mastodon.social/',
         color:'parent'
       },
       {
-        name: 'DuckDuckGo',
-        url: 'https://www.duckduckgo.com/',
+        name: 'Tweetdeck',
+        url: 'https://tweetdeck.twitter.com/',
         color:'parent'
       },
       {
-        name: 'Baidu',
-        url: 'https://www.baidu.com/',
+        name: 'Cytube',
+        url: 'https://cytu.be/r/adsasdadsadsadss',
+        color:'parent'
+      },
+      {
+        name: 'Coinmarketcap',
+        url: 'https://coinmarketcap.com/',
         color:'parent'
       }
     ]
   },
   {
-    name: 'Pingis',
+    name: '4Chan',
     color: '#9b59b6',
     listItems: [
       {
-        name: 'Google',
-        url: 'https://www.google.com/',
-        color:'parent'
-      },
-      {
-        name: 'Bing',
-        url: 'https://www.bing.com/',
-        color:'parent'
-      },
-      {
-        name: 'Yahoo!',
-        url: 'https://search.yahoo.com/',
-        color:'parent'
-      },
-      {
-        name: 'DuckDuckGo',
-        url: 'https://www..com/',
-        color:'parent'
-      },
-      {
-        name: 'Baidu',
-        url: 'https://www.baidu.com/',
+        name: 'Technology /g/',
+        url: 'https://boards.4chan.org/g/',
         color:'parent'
       }
     ]
   },
   {
-    name: 'Pongis',
+    name: 'Google',
     color: '#2ecc71',
     listItems: [
       {
-        name: 'Google',
-        url: 'https://www.google.com/',
+        name: 'Gmail',
+        url: 'https://mail.google.com/mail/u/0/#inbox',
         color:'parent'
       },
       {
-        name: 'Bing',
-        url: 'https://www.bing.com/',
+        name: 'Keep',
+        url: 'https://keep.google.com/u/0/',
         color:'parent'
       },
       {
-        name: 'Yahoo!',
-        url: 'https://search.yahoo.com/',
-        color:'parent'
-      },
-      {
-        name: 'DuckDuckGo',
-        url: 'https://www..com/',
-        color:'parent'
-      },
-      {
-        name: 'Baidu',
-        url: 'https://www.baidu.com/',
+        name: 'Calendar',
+        url: 'https://calendar.google.com/calendar/r',
         color:'parent'
       }
     ]
   },
   {
-    name: 'Plonk',
-    color: '#f1c40f',
+    name: 'week',
+    color: '#3498db',
     listItems: [
       {
-        name: 'Google',
-        url: 'https://www.google.com/',
+        name: 'Schedule',
+        url: 'https://se.timeedit.net/web/bth/db1/sched1/ri1wYXX157ZZ99Qm9Y0Y13Y7yQYX6529990Q522QXY76787.html#',
         color:'parent'
       },
       {
-        name: 'Bing',
-        url: 'https://www.bing.com/',
+        name: 'Itslearning',
+        url: 'https://bth.itslearning.com/',
         color:'parent'
       },
       {
-        name: 'Yahoo!',
-        url: 'https://search.yahoo.com/',
-        color:'parent'
-      },
-      {
-        name: 'DuckDuckGo',
-        url: 'https://www..com/',
-        color:'parent'
-      },
-      {
-        name: 'Baidu',
-        url: 'https://www.baidu.com/',
-        color:'parent'
-      }
-    ]
-  },
-  {
-    name: 'Chonk',
-    color: '#e74c3c',
-    listItems: [
-      {
-        name: 'Google',
-        url: 'https://www.google.com/',
-        color:'parent'
-      },
-      {
-        name: 'Bing',
-        url: 'https://www.bing.com/',
-        color:'parent'
-      },
-      {
-        name: 'Yahoo!',
-        url: 'https://search.yahoo.com/',
-        color:'parent'
-      },
-      {
-        name: 'DuckDuckGo',
-        url: 'https://www..com/',
-        color:'parent'
-      },
-      {
-        name: 'Baidu',
-        url: 'https://www.baidu.com/',
-        color:'parent'
+	name: 'Studentportalen',
+	url: 'https://studentportal.bth.se/web/studentportal.nsf/web.xsp/',
+	color:'parent'
       }
     ]
   }

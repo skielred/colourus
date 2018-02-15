@@ -9,7 +9,15 @@
 </head>
 
 <body>
-
+	<div class="box searchBox">
+		<ul>
+				<form autocomplete="off">
+					<input type="text" name="search" autofocus="autofocus" id="search" onkeydown="if (event.keyCode == 13)
+                        document.getElementById('btnSearch').click()" placeholder="Search..."/>
+					<input type="button" id="btnSearch" value="" onclick="searchParse();"/>
+				</form>
+		</ul>
+	</div>
 	<div class="box">
 		<script>
 			writeLists();
