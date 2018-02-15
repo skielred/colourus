@@ -1,9 +1,9 @@
-Date.prototype.getWeekNumber = function(){
+Date.prototype.getWeekNumber = function() {
   var d = new Date(Date.UTC(this.getFullYear(), this.getMonth(), this.getDate()));
   var dayNum = d.getUTCDay() || 7;
   d.setUTCDate(d.getUTCDate() + 4 - dayNum);
-  var yearStart = new Date(Date.UTC(d.getUTCFullYear(),0,1));
-  return Math.ceil((((d - yearStart) / 86400000) + 1)/7)
+  var yearStart = new Date(Date.UTC(d.getUTCFullYear(), 0, 1));
+  return Math.ceil((((d - yearStart) / 86400000) + 1) / 7)
 };
 //Borrowed from https://stackoverflow.com/questions/6117814/get-week-of-year-in-javascript-like-in-php
 function writeLists() {
@@ -13,10 +13,10 @@ function writeLists() {
     //loop trough all the contents of the second array in the object
     console.log(element);
     document.write("<ul style='color:" + element.color + ";'>");
-    if(element.name != 'week'){
-    document.write("<li>" + element.name + "</li>");
+    if (element.name != 'week') {
+      document.write("<li>" + element.name + "</li>");
     } else {
-    document.write("<li>Uni Week " + new Date().getWeekNumber() + "</li>");
+      document.write("<li>Uni Week " + new Date().getWeekNumber() + "</li>");
     }
     element.listItems.forEach(function(item) { //each category list item
       document.write("<li");
@@ -27,7 +27,7 @@ function writeLists() {
       if (item.sup == "true") { //sup list check
         item.supInfo.forEach(function(info) { //sup list loop
           document.write("<a href='" + info.url + "'><sup class='small'>" + info.name + "</sup></a>");
-        },)
+        }, )
       }
       document.write("</li>");
     }, );
@@ -38,15 +38,28 @@ function writeLists() {
 function searchParse() {
   var data = document.getElementById("search").value;
 
-  var firstWord = data.replace(/ .*/,'');
-/*
-  switch (firstWord) {
-    case w:
+  var firstWord = data.replace(/ .*/, '');
+  var searchTerm = data.substr(2);
 
-      break;
-    default:
+    switch (firstWord) {
+      case "y":
+        window.location.href = "https://www.youtube.com/results?search_query=" + searchTerm;
+        break;
+      case "4":
+        window.location.href = "https://boards.4chan.org/" + searchTerm + "/";
+        break;
+      case "r":
+        window.location.href = "https://reddit.com/r/" + searchTerm + "/";
+        break;
+      case "t":
+        window.location.href = "https://twitter.com/search?q=" + searchTerm;
+        break;
+      default:
+        window.location.href = "https://startpage.com/do/search?language=english&cat=web&query=" + data;
+        // window.location.href ="https://duckduckgo.com/?q=" + data;
+        // window.location.href ="https://google.com/search?q=" + data; Remeber kids 1984
 
-  }
-*/
-  alert(firstWord + data);
+    }
+
+  //alert("ayy " + data + " " + firstWord.length);
 }
