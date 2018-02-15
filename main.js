@@ -36,6 +36,7 @@ function writeLists() {
 }
 
 function searchParse() {
+  document.getElementsByTagName("body")[0].style = "visibility: hidden;"; // #3d3d3d way better background grey background-color: red; 
   var data = document.getElementById("search").value;
 
   var firstWord = data.replace(/ .*/, '');

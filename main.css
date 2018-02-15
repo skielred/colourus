@@ -1,5 +1,8 @@
 /* Importing font */
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@font-face {
+	font-family: 'Josefin Sans';
+	src: url('JosefinSans-Regular.ttf') format('truetype');
+}
 
 /* Giving body it's properties */
 body {
