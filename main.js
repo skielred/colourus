@@ -88,6 +88,9 @@ function searchParse() {
       case "calendar":
         window.location.href = "https://calendar.google.com/calendar/r";
         break;
+      case "github":
+        window.location.href = "https://github.com";
+        break;
       default:
         window.location.href = "https://startpage.com/do/search?language=english&cat=web&query=" + data;
         // window.location.href ="https://duckduckgo.com/?q=" + data;
