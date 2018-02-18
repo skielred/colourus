@@ -41,50 +41,58 @@ function searchParse() {
   var data = document.getElementById("search").value;
 
   var firstWord = data.replace(/ .*/, '');
-  var searchTerm = data.substr(2);
 
     switch (firstWord) {
       case "y":
-        if(searchTerm == null){
+        var searchTerm = data.substr(2);
+        if(searchTerm == ""){
           window.location.href = "https://www.youtube.com/feed/subscriptions";
         } else {
         window.location.href = "https://www.youtube.com/results?search_query=" + searchTerm;
         }
         break;
       case "4":
-        if(searchTerm == null){
+        var searchTerm = data.substr(2);
+        if(searchTerm == ""){
           window.location.href = "https://4chan.org/";
         } else {
         window.location.href = "https://boards.4chan.org/" + searchTerm + "/";
         }
         break;
       case "r":
-        if(searchTerm == null){
+        var searchTerm = data.substr(2);
+        if(searchTerm == ""){
           window.location.href = "https://reddit.com/";
         } else {
           window.location.href = "https://reddit.com/r/" + searchTerm + "/";
         }
         break;
       case "t":
-        if(searchTerm == null){
+        var searchTerm = data.substr(2);
+        if(searchTerm == ""){
           window.location.href = "https://tweetdeck.twitter.com/";
         } else {
           window.location.href = "https://twitter.com/search?q=" + searchTerm;
         }
         break;
       case "keep":
-        if(searchTerm == null){
+        var searchTerm = data.substr(5);
+        if(searchTerm == ""){
           window.location.href = "https://keep.google.com/u/0/";
         } else {
           window.location.href = "https://keep.google.com/u/" + searchTerm + "/";
         }
         break;
       case "gmail":
-        if(searchTerm == null){
+        var searchTerm = data.substr(6);
+        if(searchTerm == ""){
           window.location.href = "https://mail.google.com/mail/u/0/";
+          //console.log("null is true, " + searchTerm);
         } else {
           window.location.href = "https://mail.google.com/mail/u/" + searchTerm + "/";
+          //console.log("null is false, '" + searchTerm + "'");
         }
+        break;
       case "calendar":
         window.location.href = "https://calendar.google.com/calendar/r";
         break;
