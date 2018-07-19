@@ -166,11 +166,3 @@ config =
     ]
   }
 ];
-
-/*
-.cat1 { color: #e05555; }
-.cat2 { color: #e0b455; }
-.cat3 {	color: #9ae055; }
-.cat4 {	color: #55d4e0; }
-.cat5 { color: #8555e0; }
-*/
