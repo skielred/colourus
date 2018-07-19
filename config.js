@@ -1,167 +1,29 @@
-config =
-[
+config = {
+  searchBox: true
+}
+
+columns = [
   {
-    name: 'Search',
-    color: '#e67e22',
-    listItems: [
+    name: "SNS",
+    color: "#111111",
+    childs: [
       {
-        name: 'Google',
-        url: 'https://www.google.com/',
-        color: 'parent',
-        sup: 'true',
-        supInfo:[
-          {
-          name: '[1]',
-          url: 'http://dogecoin.com/'
-        },
-        {
-        name: '[Word]',
-        url: 'http://meme.cash/'
-      }]
+        name: "Twitter",
+        url: "https://twitter.com"
       },
       {
-        name: 'Bing',
-        url: 'https://www.bing.com/',
-        color:'parent'
-      },
-      {
-        name: 'Yahoo!',
-        url: 'https://search.yahoo.com/',
-        color:'parent'
-      },
-      {
-        name: 'DuckDuckGo',
-        url: 'https://www.duckduckgo.com/',
-        color:'parent'
-      },
-      {
-        name: 'Baidu',
-        url: 'https://www.baidu.com/',
-        color:'parent'
+        name: "Facebook",
+        url: "https://facebook.com"
       }
     ]
   },
   {
-    name: 'Pingis',
-    color: '#9b59b6',
-    listItems: [
+    name: "Art",
+    color: "#222222",
+    childs: [
       {
-        name: 'Google',
-        url: 'https://www.google.com/',
-        color:'parent'
-      },
-      {
-        name: 'Bing',
-        url: 'https://www.bing.com/',
-        color:'parent'
-      },
-      {
-        name: 'Yahoo!',
-        url: 'https://search.yahoo.com/',
-        color:'parent'
-      },
-      {
-        name: 'DuckDuckGo',
-        url: 'https://www..com/',
-        color:'parent'
-      },
-      {
-        name: 'Baidu',
-        url: 'https://www.baidu.com/',
-        color:'parent'
-      }
-    ]
-  },
-  {
-    name: 'Pongis',
-    color: '#2ecc71',
-    listItems: [
-      {
-        name: 'Google',
-        url: 'https://www.google.com/',
-        color:'parent'
-      },
-      {
-        name: 'Bing',
-        url: 'https://www.bing.com/',
-        color:'parent'
-      },
-      {
-        name: 'Yahoo!',
-        url: 'https://search.yahoo.com/',
-        color:'parent'
-      },
-      {
-        name: 'DuckDuckGo',
-        url: 'https://www..com/',
-        color:'parent'
-      },
-      {
-        name: 'Baidu',
-        url: 'https://www.baidu.com/',
-        color:'parent'
-      }
-    ]
-  },
-  {
-    name: 'Plonk',
-    color: '#f1c40f',
-    listItems: [
-      {
-        name: 'Google',
-        url: 'https://www.google.com/',
-        color:'parent'
-      },
-      {
-        name: 'Bing',
-        url: 'https://www.bing.com/',
-        color:'parent'
-      },
-      {
-        name: 'Yahoo!',
-        url: 'https://search.yahoo.com/',
-        color:'parent'
-      },
-      {
-        name: 'DuckDuckGo',
-        url: 'https://www..com/',
-        color:'parent'
-      },
-      {
-        name: 'Baidu',
-        url: 'https://www.baidu.com/',
-        color:'parent'
-      }
-    ]
-  },
-  {
-    name: 'Chonk',
-    color: '#e74c3c',
-    listItems: [
-      {
-        name: 'Google',
-        url: 'https://www.google.com/',
-        color:'parent'
-      },
-      {
-        name: 'Bing',
-        url: 'https://www.bing.com/',
-        color:'parent'
-      },
-      {
-        name: 'Yahoo!',
-        url: 'https://search.yahoo.com/',
-        color:'parent'
-      },
-      {
-        name: 'DuckDuckGo',
-        url: 'https://www..com/',
-        color:'parent'
-      },
-      {
-        name: 'Baidu',
-        url: 'https://www.baidu.com/',
-        color:'parent'
+        name: "Pixiv",
+        url: "https://pixiv.net"
       }
     ]
   }
